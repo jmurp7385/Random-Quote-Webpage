@@ -1,0 +1,60 @@
+body,
+html {
+  background-color: #800000;
+  width: 100%;
+  margin: 0px;
+}
+
+#mainbox {
+  background-color: #fff;
+  position: fixed;
+  border-radius: 50px;
+  width: 550px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#quote-text {
+  text-align: center;
+  color: #800000;
+}
+
+#quote-author {
+  text-align: right;
+  color: #800000;
+}
+
+.socialMedia,
+.socialMedia:link,
+.socialMedia:hover,
+.socialMedia:active,
+.socialMedia:visited {
+  color: white;
+  text-decoration: none;
+  height: 50px;
+  width: 50px;
+  background-color: #800000;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  border-radius: 50px;
+}
+
+#new-quote {
+  background-color: #800000;
+  color: #fff;
+  float: right;
+  position: relative;
+  margin-right: -14px;
+}
+
+#made-by {
+  color: #fff;
+  position: fixed;
+  top: 110%;
+  left: 50%;
+  font-size: 15px;
+}
+a {
+  color:white;
+}
